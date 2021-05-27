@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h3>
+        <center>
+            <ul class="menu_1">
+                <li class="links">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="links">
+                    <a href="#grids">Grid View</a>
+                </li>
+                <li class="links">
+                    <a href="#slides">Slide View</a>
+                </li>
+            </ul>
+        </center>
+    </h3>
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img_1" src="Naruto.gif" class="img-responsive">
+            </div>
+        </section>
+        <hr style="width: 100%">
+    </div>
+    <section id="grids">
+        <h2>Grid Gallery</h2>
+        <br>
+        <div class="row">
+            <img class="img_2" src="Naruto%201.jpg">
+            <img class="img_2" src="Naruto%202.png">
+            <img class="img_2" src="Naruto%203.jpg">
+            <img class="img_2" src="Naruto%204.jpeg">
+            <img class="img_2" src="Naruto%205.jpeg">
+            <img class="img_2" src="Naruto%206.jpeg">
+            <br>
+            <br>
+        </div>
+        <div class="row">
+            <img class="img_2" src="Fortnite%207.jpg">
+            <img class="img_2" src="Fortnite%208.jpg">
+            <img class="img_2" src="Fortnite%209.jpg">
+            <img class="img_2" src="Fortnite%2010.jpg">
+            <img class="img_2" src="Fortnite%2011.jpg">
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr style="width: 100%">
+    <div class="container">
+
+        <section id="slides">
+        <h2>Sliding Gallery</h2>
+        <div id="myCarousel" class="carousel slide" data-ride=" carousel">
+            <div class="carousel-inner">
+                <div class="item">
+                    <img class="img-responsive" src="Fortnite%208.jpg" alt="Alpine Ace" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3>Alpine Ace</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="Fortnite%209.jpg" alt="Drift" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3>Drift</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                        <img class="img-responsive" src="Fortnite%2010.jpg" alt="Soccer Skins" style="width: 100%;">
+                        <div class="carousel-caption">
+                            <h3>Soccer Skins</h3>
+                            <p></p>
+                        </div>
+                </div>
+                <div class="item">
+                        <img class="img-responsive" src="Fortnite%2011.jpg" alt="Travis Scott" style="width: 100%;">
+                        <div class="carousel-caption">
+                            <h3>Travis Scott</h3>
+                            <p></p>
+                        </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+             <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
